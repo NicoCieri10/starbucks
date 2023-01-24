@@ -1,7 +1,7 @@
 - fix header not fixed xd -----DONE
 - cards-circle ------DONE :')
 - footer -----almost
--
+- 
 -
 -
 -

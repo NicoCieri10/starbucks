@@ -242,14 +242,31 @@ img {
     background: black;
     display: flex;
     flex-direction: column;
+    padding: 40px 20px;
 }
 
 .footer__links-user {
     display: flex;
     flex-direction: column;
+
 }
 
 .footer__network {
     display: flex;
     flex-direction: row;
+    font-size: 19px;
+    margin: 10px 18px 10px 0px;
+    font-size: 19px;
+}
+
+.footer__network,
+.footer__links {
+    text-decoration: none;
+    color: var(--bg-header); 
+    font-weight: bold;
+}
+
+.footer__contact-us {
+    text-decoration: none;
+    color: #07a700;
 }
