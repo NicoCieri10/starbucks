@@ -43,9 +43,17 @@ img {
     width: 50px;
 }
 
-.header__icon {
+.header__icon-0 {
     font-size: var(--size-icons);
     color: var(--color-icons);
+}
+
+.header__icon-1 {
+    display: none;
+}
+
+.header__navbar {
+    display: none;
 }
 
 .main {
@@ -269,4 +277,32 @@ img {
 .footer__contact-us {
     text-decoration: none;
     color: #07a700;
+}
+
+
+@media (min-width: 768px) {
+
+    .header__icon-0 {
+        display: none;
+    }
+    
+    .header__icon-1 {
+        display: block;
+        font-size: var(--size-icons);
+        color: var(--color-icons);
+    }
+
+    .header__navbar {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .header__navbar-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: var(--color-icons);
+        margin: 0px 10px;
+    }
 }
