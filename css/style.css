@@ -394,22 +394,22 @@ img {
         flex-direction: row;
         padding: 40px;
         align-items: center;
-        justify-content: center;
     }
     
     .footer__network {
         justify-content: center;
-        width: fit-content;
     }
     
     .footer__links-user,
     .footer__network,
     .footer__container-contact-us {
+        width: 25%;
         flex-grow: 1;
     }
     
     .footer__container-contact-us {
-        justify-content: end;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .footer__links,
@@ -419,5 +419,6 @@ img {
     
     .footer__network-i {
         margin: 0px 10px;
+        font-size: 21px;
     }
 }
